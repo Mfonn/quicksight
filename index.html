@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State Government Performance Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <h1>State Performance Tracker</h1>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="intro">
+            <h2>About the Project</h2>
+            <p>
+                This project aims to enhance transparency and accountability by tracking the performance of various ministries and projects in the State. The dashboard below provides real-time data on ongoing projects, helping citizens and government officials monitor progress efficiently.
+            </p>
+        </section>
+
+        <!-- Embedded Dashboard Section -->
+        <section class="dashboard">
+            <h2>Government Performance Dashboard</h2>
+            <div class="embed-container">
+                <iframe
+                    width="960"
+                    height="720"
+                    src="https://us-east-1.quicksight.aws.amazon.com/sn/embed/share/accounts/872515267845/dashboards/1327e0f1-0cbe-48fd-8083-6915616c99b1?directory_alias=mfon"
+                    frameborder="0"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy;  Powered by Amazon Analytics</p>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
